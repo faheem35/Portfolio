@@ -54,11 +54,11 @@ const AboutSection = () => {
   return (
     <section className="text-white " id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="/images/about-image.png" width={500} height={500} />
+        <Image src="/images/about-image.png"  alt="about image" width={500} height={500} />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold  mb-4 bg-gradient-to-r from-pink-400 via-purple-400  to-red-400 bg-clip-text text-transparent">About Me</h2>
           <p className="text-base lg:text-lg text-justify">
-           I'm Faheem, a full-stack developer passionate about creating smooth, impactful digital experiences. With expertise in the MERN stack (MongoDB, Express.js, React, and Node.js), I build responsive, user-friendly web applications that address real-world challenges.
+           I&apos;m Faheem, a full-stack developer passionate about creating smooth, impactful digital experiences. With expertise in the MERN stack (MongoDB, Express.js, React, and Node.js), I build responsive, user-friendly web applications that address real-world challenges.
 </p> <br />
 <p className="text-base lg:text-lg text-justify">My journey began with a curiosity about how the web works, which quickly evolved into a dedication to writing clean, efficient, and scalable code. I focus on building solutions that are not only functional but also maintainable and easy to understand.</p> <br />
 
