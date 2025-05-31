@@ -35,7 +35,7 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>NACTET Certfication in MEARN Stack Developement</li>
-        <li>Luminar Technolab pvt.Ltd Internship Certfication in MEARN Stack</li>
+        <li>Luminar Technolab Pvt Ltd Internship Certfication in MEARN Stack</li>
       </ul>
     ),
   },
@@ -48,7 +48,7 @@ const AboutSection = () => {
   const handleTabChange = (id) => {
     startTransition(() => {
       setTab(id);
-    });
+    }); 
   };
 
   return (

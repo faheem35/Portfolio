@@ -150,7 +150,9 @@ const projectsData = [
   {
     id: 1,
     title: "Fitness World",
-    description: "Project 1 description",
+    description: `MERN stack fitness app with three dedicated panels for users, trainers, and admins.
+Key features include personalized workout plans, live video sessions with trainers, AI chatbot assistance, and
+BMI/BMR calculators. Integrated JWT and Google OAuth login, Multer for file uploads, and robust admin controls.`,
     image: "/images/projects/1.jpg",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/faheem35/FitnessWorld",
@@ -159,7 +161,7 @@ const projectsData = [
   {
     id: 2,
     title: "ProjectVerse",
-    description: "Project 2 description",
+    description: `MERN stack project fair platform with secure authentication. Users can showcase, edit, and delete projects through a personalized dashboard, manage profiles, and explore all uploaded projects. A responsive design ensures smooth navigation and accessibility across various devices and screen sizes.`,
     image: "/images/projects/2.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/faheem35/ProjectVerse-React-Node-Express-MongoDB",
@@ -168,7 +170,7 @@ const projectsData = [
    {
     id: 3,
     title: "Echo Play",
-    description: "Project 3 description",
+    description: `A media player built with React.js, Axios, and JSON Server that allows users to upload and manage videos with related data. It supports drag-and-drop for easy content categorization, tracks viewing history, and offers a smooth, responsive interface for organizing media across devices.`,
     image: "/images/projects/3.jpg",
     tag: ["All", "Mobile"],
     gitUrl: "https://github.com/faheem35/Echo-Play",
@@ -212,6 +214,7 @@ const ProjectsSection = () => {
             initial="initial"
             animate={isInView ? "animate" : "initial"}
             transition={{ duration: 0.3, delay: index * 0.4 }}
+            
           >
             <ProjectCard
               key={project.id}
