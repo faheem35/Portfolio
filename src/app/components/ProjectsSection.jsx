@@ -155,7 +155,7 @@ Key features include personalized workout plans, live video sessions with traine
 BMI/BMR calculators. Integrated JWT and Google OAuth login, Multer for file uploads, and robust admin controls.`,
     image: "/images/projects/1.jpg",
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/faheem35/FitnessWorld",
+    gitUrl: "https://github.com/faheem35/Fitness-World",
     previewUrl: "/",
   },
   {
