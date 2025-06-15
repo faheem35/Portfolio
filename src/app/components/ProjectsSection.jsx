@@ -156,7 +156,7 @@ BMI/BMR calculators. Integrated JWT and Google OAuth login, Multer for file uplo
     image: "/images/projects/1.jpg",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/faheem35/Fitness-World",
-    previewUrl: "/",
+    previewUrl: "https://fitness-world-sonn.vercel.app",
   },
   {
     id: 2,
