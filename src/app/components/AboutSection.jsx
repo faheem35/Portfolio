@@ -35,7 +35,7 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>NACTET Certfication in MERN Stack Developement</li>
-        <li>Luminar Technolab Pvt Ltd Internship Certfication in MERN Stack</li>
+        <li>Luminar Technolab Certfication in MERN Stack</li>
       </ul>
     ),
   },
