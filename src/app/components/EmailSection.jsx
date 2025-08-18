@@ -90,7 +90,7 @@ const EmailSection = () => {
               </div>
               <div>
                 <p className="text-white font-medium">Phone</p>
-                <p className="text-[#ADB7BE] text-sm group-hover:text-blue-400 transition-colors">+971 507551702</p>
+                <p className="text-[#ADB7BE] text-sm group-hover:text-blue-400 transition-colors">+91 80788 92781</p>
               </div>
             </a>
             
@@ -103,7 +103,7 @@ const EmailSection = () => {
               </div>
               <div>
                 <p className="text-white font-medium">Location</p>
-                <p className="text-[#ADB7BE] text-sm group-hover:text-green-400 transition-colors">Abu Dhabi, United Arab Emirates</p>
+                <p className="text-[#ADB7BE] text-sm group-hover:text-green-400 transition-colors">Bengaluru, Karnataka, India</p>
               </div>
             </div>
 
@@ -179,7 +179,7 @@ const EmailSection = () => {
               required
               disabled={isLoading}
               className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5 focus:ring-2 focus:ring-primary-500 focus:border-primary-500 disabled:opacity-50 disabled:cursor-not-allowed"
-              placeholder="Just saying hi"
+              placeholder="Enter subject here"
             />
           </div>
           <div className="mb-6">
