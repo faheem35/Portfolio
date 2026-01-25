@@ -159,24 +159,35 @@ BMI/BMR calculators. Integrated JWT and Google OAuth login, Multer for file uplo
     previewUrl: "https://fitness-world-sonn.vercel.app",
   },
   {
-    id: 2,
+  id: 2,
+  title: "Casa Find",
+  description: `A full-stack real estate platform built using the MERN stack that allows users to browse, search, and list properties with detailed information. Features include user authentication, property management dashboard, image uploads, advanced filtering, and a responsive UI optimized for all devices.`,
+  image: "/images/projects/2.jpg",
+  tag: ["All", "Web"],
+  gitUrl: "https://github.com/faheem35/Casa-Find",
+  previewUrl: "https://casa-find.vercel.app",
+},
+
+  {
+    id: 3,
     title: "ProjectVerse",
     description: `MERN stack project fair platform with secure authentication. Users can showcase, edit, and delete projects through a personalized dashboard, manage profiles, and explore all uploaded projects. A responsive design ensures smooth navigation and accessibility across various devices and screen sizes.`,
-    image: "/images/projects/2.png",
+    image: "/images/projects/3.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/faheem35/ProjectVerse-React-Node-Express-MongoDB",
     previewUrl: "https://project-fair-react-node-express-mongo-db-icy9.vercel.app",
   },
-   {
-    id: 3,
-    title: "Echo Play",
-    description: `A media player built with React.js, Axios, and JSON Server that allows users to upload and manage videos with related data. It supports drag-and-drop for easy content categorization, tracks viewing history, and offers a smooth, responsive interface for organizing media across devices.`,
-    image: "/images/projects/3.jpg",
-    tag: ["All", "Mobile"],
-    gitUrl: "https://github.com/faheem35/Echo-Play",
-    previewUrl: "https://echo-play.vercel.app",
+  //  {
+  //   id: 3,
+  //   title: "Echo Play",
+  //   description: `A media player built with React.js, Axios, and JSON Server that allows users to upload and manage videos with related data. It supports drag-and-drop for easy content categorization, tracks viewing history, and offers a smooth, responsive interface for organizing media across devices.`,
+  //   image: "/images/projects/3.jpg",
+  //   tag: ["All", "Mobile"],
+  //   gitUrl: "https://github.com/faheem35/Echo-Play",
+  //   previewUrl: "https://echo-play.vercel.app",
    
-  },
+  // },
+
 ];
 
 const ProjectsSection = () => {
