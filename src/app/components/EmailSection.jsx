@@ -103,7 +103,7 @@ const EmailSection = () => {
               </div>
               <div>
                 <p className="text-white font-medium">Location</p>
-                <p className="text-[#ADB7BE] text-sm group-hover:text-green-400 transition-colors">Bengaluru, Karnataka, India</p>
+                <p className="text-[#ADB7BE] text-sm group-hover:text-green-400 transition-colors">Kochi, Kerala, India</p>
               </div>
             </div>
 

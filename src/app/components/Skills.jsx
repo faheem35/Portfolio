@@ -1,17 +1,34 @@
 const Skills = () => {
   const skillsData = [
     {
-      title: "Frontend Development",
-      description: "Building responsive and interactive user interfaces with modern frameworks and libraries.",
-      skills: ["React.js", "HTML", "CSS", "JavaScript", "Redux"],
-      icon: "🎨",
-    },
-    {
-      title: "Backend Development",
-      description: "Creating robust server-side applications and RESTful APIs.",
-      skills: ["Node.js", "Express.js", "REST API", "Authentication", "Authorization"],
-      icon: "⚙️",
-    },
+  title: "Frontend Development",
+  description: "Building responsive and interactive user interfaces with modern frameworks and libraries.",
+  skills: [
+    "React.js",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Redux",
+    "Tailwind CSS",
+    "React Bootstrap",
+    "Material UI"
+  ],
+  icon: "🎨",
+},
+   {
+  title: "Backend Development",
+  description: "Creating robust server-side applications and RESTful APIs.",
+  skills: [
+    "Node.js",
+    "Express.js",
+    "REST API",
+    "JWT Authentication",
+    "Google OAuth",
+    "Nodemailer",
+    "EmailJS"
+  ],
+  icon: "⚙️",
+},
     {
       title: "Database Management",
       description: "Designing and implementing efficient database structures.",
@@ -33,7 +50,7 @@ const Skills = () => {
     {
       title: "Programming Languages",
       description: "Proficient in multiple programming languages for various use cases.",
-      skills: ["JavaScript", "HTML", "CSS", "Python"],
+       skills: ["JavaScript", "C", "C++", "Python"],
       icon: "💻",
     },
   ]

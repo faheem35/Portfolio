@@ -1,143 +1,3 @@
-// "use client";
-// import React, { useState, useRef } from "react";
-// import ProjectCard from "./ProjectCard";
-// import ProjectTag from "./ProjectTag";
-// import { motion, useInView } from "framer-motion";
-
-// const projectsData = [
-//   {
-//     id: 1,
-//     title: "Fitness World",
-//     description: "Project 1 description",
-//     image: "/images/projects/1.jpg",
-//     tag: ["All", "Web"],
-//     gitUrl: "https://github.com/faheem35/FitnessWorld",
-//     previewUrl: "/",
-//   },
-//   {
-//     id: 2,
-//     title: "ProjectVerse",
-//     description: "Project 2 description",
-//     image: "/images/projects/2.png",
-//     tag: ["All", "Web"],
-//     gitUrl: "https://github.com/faheem35/ProjectVerse-React-Node-Express-MongoDB",
-//     previewUrl: "https://project-fair-react-node-express-mongo-db-icy9.vercel.app",
-//   },
-//    {
-//     id: 3,
-//     title: "Echo Play",
-//     description: "Project 4 description",
-//     image: "/images/projects/3.jpg",
-//     tag: ["All", "Mobile"],
-//     gitUrl: "https://github.com/faheem35/Echo-Play",
-//     previewUrl: "https://echo-play.vercel.app",
-//   },
-//   // {
-//   //   id: 4,
-//   //   title: "Library Manager",
-//   //   description: "Project 3 description",
-//   //   image: "/images/projects/4.png",
-//   //   tag: ["All", "Web"],
-//   //   gitUrl: "/",
-//   //   previewUrl: "https://cool-syrniki-9bd372.netlify.app",
-//   // },
- 
-//   // {
-//   //   id: 5,
-//   //   title: "ShopEase",
-//   //   description: "Authentication and CRUD operations",
-//   //   image: "/images/projects/5.png",
-//   //   tag: ["All", "Web"],
-//   //   gitUrl: "/",
-//   //   previewUrl: "https://shop-ease-khaki-eight.vercel.app",
-//   // },
-//   // {
-//   //   id: 6,
-//   //   title: "Apple Clone",
-//   //   description: "Project 5 description",
-//   //   image: "/images/projects/6.png",
-//   //   tag: ["All", "Web"],
-//   //   gitUrl: "/",
-//   //   previewUrl: "https://strong-muffin-3af9fp.netlify.app",
-//   // },
-// ];
-
-// const ProjectsSection = () => {
-//   const [tag, setTag] = useState("All");
-//   const ref = useRef(null);
-//   const isInView = useInView(ref, { once: true });
-
-//   const handleTagChange = (newTag) => {
-//     setTag(newTag);
-//   };
-
-//   const filteredProjects = projectsData.filter((project) =>
-//     project.tag.includes(tag)
-//   );
-
-//   const cardVariants = {
-//     initial: { y: 50, opacity: 0 },
-//     animate: { y: 0, opacity: 1 },
-//   };
-
-//   return (
-//     <section id="projects" className="lg:py-16 h-[80vh]  ">
-//       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
-//         My Projects
-//       </h2>
-//       {/* <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
-//         <ProjectTag
-//           onClick={handleTagChange}
-//           name="All"
-//           isSelected={tag === "All"}
-//         />
-//         <ProjectTag
-//           onClick={handleTagChange}
-//           name="Web"
-//           isSelected={tag === "Web"}
-//         />
-//         <ProjectTag
-//           onClick={handleTagChange}
-//           name="Mobile"
-//           isSelected={tag === "Mobile"}
-//         />
-//       </div> */}
-//       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
-//         {filteredProjects.map((project, index) => (
-//           <motion.li
-//             key={index}
-//             variants={cardVariants}
-//             initial="initial"
-//             animate={isInView ? "animate" : "initial"}
-//             transition={{ duration: 0.3, delay: index * 0.4 }}
-//           >
-//             <ProjectCard
-//               key={project.id}
-//               title={project.title}
-//               description={project.description}
-//               imgUrl={project.image}
-//               gitUrl={project.gitUrl}
-//               previewUrl={project.previewUrl}
-//             />
-//           </motion.li>
-//         ))}
-//       </ul>
-
-//       <div className="flex justify-center mt-8">
-//         <a
-//           href="https://github.com/faheem35?tab=repositories"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//           className="inline-block bg-primary-600 hover:bg-primary-700 text-white font-semibold py-3 px-6 rounded-md transition-colors duration-300"
-//         >
-//           View More on GitHub
-//         </a>
-//       </div>
-//     </section>
-//   );
-// };
-
-// export default ProjectsSection;
 
 
 "use client";
@@ -148,7 +8,16 @@ import { motion, useInView } from "framer-motion";
 
 const projectsData = [
   {
-    id: 1,
+  id: 1,
+  title: "Moonway General Contracting",
+  description: `A corporate website developed for a UAE-based construction company. Designed a responsive interface showcasing services, projects, and contact information. Focused on performance, SEO optimization, clean UI/UX, and cross-device compatibility to strengthen the online presence.`,
+  image: "/images/projects/0.jpg", 
+  tag: ["All", "Web"],
+  gitUrl: "https://github.com/faheem35/Moonway", 
+  previewUrl: "https://moonwaycontracting.com",
+},
+  {
+    id: 2,
     title: "Fitness World",
     description: `MERN stack fitness app with three dedicated panels for users, trainers, and admins.
 Key features include personalized workout plans, live video sessions with trainers, AI chatbot assistance, and
@@ -159,7 +28,7 @@ BMI/BMR calculators. Integrated JWT and Google OAuth login, Multer for file uplo
     previewUrl: "https://fitness-world-sonn.vercel.app",
   },
   {
-  id: 2,
+  id: 3,
   title: "Casa Find",
   description: `A full-stack real estate platform built using the MERN stack that allows users to browse, search, and list properties with detailed information. Features include user authentication, property management dashboard, image uploads, advanced filtering, and a responsive UI optimized for all devices.`,
   image: "/images/projects/2.jpg",
@@ -169,24 +38,15 @@ BMI/BMR calculators. Integrated JWT and Google OAuth login, Multer for file uplo
 },
 
   {
-    id: 3,
+    id: 4,
     title: "ProjectVerse",
-    description: `MERN stack project fair platform with secure authentication. Users can showcase, edit, and delete projects through a personalized dashboard, manage profiles, and explore all uploaded projects. A responsive design ensures smooth navigation and accessibility across various devices and screen sizes.`,
+    description: `MERN stack project fair platform with secure authentication. Users can showcase, edit, and delete projects through a personalized dashboard, manage profiles, and explore uploaded projects. A responsive design ensures smooth navigation and accessibility across devices and screen sizes.`,
     image: "/images/projects/3.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/faheem35/ProjectVerse-React-Node-Express-MongoDB",
     previewUrl: "https://project-fair-react-node-express-mongo-db-icy9.vercel.app",
   },
-  //  {
-  //   id: 3,
-  //   title: "Echo Play",
-  //   description: `A media player built with React.js, Axios, and JSON Server that allows users to upload and manage videos with related data. It supports drag-and-drop for easy content categorization, tracks viewing history, and offers a smooth, responsive interface for organizing media across devices.`,
-  //   image: "/images/projects/3.jpg",
-  //   tag: ["All", "Mobile"],
-  //   gitUrl: "https://github.com/faheem35/Echo-Play",
-  //   previewUrl: "https://echo-play.vercel.app",
-   
-  // },
+ 
 
 ];
 
@@ -217,7 +77,7 @@ const ProjectsSection = () => {
 
       <div className="w-24 h-1 bg-gradient-to-r from-purple-400 to-pink-400 mx-auto mt-8 rounded-full mb-8 md:mb-12"></div>
       
-      <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
+     <ul ref={ref} className="grid md:grid-cols-2 gap-8 md:gap-12 max-w-5xl mx-auto">
         {filteredProjects.map((project, index) => (
           <motion.li
             key={index}
