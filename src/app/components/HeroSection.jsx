@@ -48,7 +48,7 @@ const HeroSection = () => {
             </Link>
             <Link
              target="_blank"
-              href="https://drive.google.com/file/d/1lURrjmBqUz_WS09zzSz_LXoJI4Uaq42P/view?usp=sharing"
+              href="https://drive.google.com/file/d/1PmrpxoDb97mx3HnrYNFa8pI7JL87N_O2/view?usp=sharing"
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
             >
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
