@@ -16,8 +16,17 @@ const projectsData = [
   gitUrl: "https://github.com/faheem35/Moonway", 
   previewUrl: "https://moonwaycontracting.com",
 },
+ {
+  id: 2,
+  title: "Casa Find",
+  description: `A full-stack real estate platform built using the MERN stack that allows users to browse, search, and list properties with detailed information. Features include user authentication, property management dashboard, image uploads, advanced filtering, and a responsive UI optimized for all devices.`,
+  image: "/images/projects/2.jpg",
+  tag: ["All", "Web"],
+  gitUrl: "https://github.com/faheem35/Casa-Find",
+  previewUrl: "https://casa-find.vercel.app",
+},
   {
-    id: 2,
+    id: 3,
     title: "Fitness World",
     description: `MERN stack fitness app with three dedicated panels for users, trainers, and admins.
 Key features include personalized workout plans, live video sessions with trainers, AI chatbot assistance, and
@@ -27,15 +36,7 @@ BMI/BMR calculators. Integrated JWT and Google OAuth login, Multer for file uplo
     gitUrl: "https://github.com/faheem35/Fitness-World",
     previewUrl: "https://fitness-world-sonn.vercel.app",
   },
-  {
-  id: 3,
-  title: "Casa Find",
-  description: `A full-stack real estate platform built using the MERN stack that allows users to browse, search, and list properties with detailed information. Features include user authentication, property management dashboard, image uploads, advanced filtering, and a responsive UI optimized for all devices.`,
-  image: "/images/projects/2.jpg",
-  tag: ["All", "Web"],
-  gitUrl: "https://github.com/faheem35/Casa-Find",
-  previewUrl: "https://casa-find.vercel.app",
-},
+ 
 
   {
     id: 4,
